@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+[class^="col"] {
+  background-color: rgba(139, 69, 19, 0.301);
+}
+
 header {
   height: 80px;
   background-color: #2C3E50;
