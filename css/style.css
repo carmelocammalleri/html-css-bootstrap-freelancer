@@ -2,9 +2,9 @@
   max-width: 1000px;
   width: 90%;
   margin: 0 auto;
-  background-color: salmon;
 }
 
 header {
   height: 80px;
+  background-color: #2C3E50;
 }
