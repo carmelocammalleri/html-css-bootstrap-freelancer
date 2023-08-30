@@ -91,6 +91,14 @@ header {
   color: #1ABC9C;
 }
 
+.input-custom {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  padding-left: 0;
+}
+
 .info {
   background-color:#2C3E50 ;
 }
