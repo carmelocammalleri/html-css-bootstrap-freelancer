@@ -28,20 +28,48 @@ header {
   width: 200px;
 }
 
-.card-custum {
-  width: 100%;
+.card-custom {
+  border-radius: 10px;
+  object-fit: contain;
+  position: relative;
 }
+
+.fa-plus {
+  font-size: 10rem;
+  color: white;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  translate: 50% -50%;
+  display: none;
+}
+
+.posing:hover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  translate: 50% -50%;
+  background-color: rgba(255, 255, 255, 0.233);
+  display: none;
+}
+
 
 .line{
   width:15%;
   height: 4px;
   display: inline-block;
-  border-radius: 10px;
 }
 
 .sub-title {
   font-size: 1.6rem;
 }
+
+.image{
+  border-radius: 20px;
+}
+
 .info {
   background-color:#2C3E50 ;
 }
