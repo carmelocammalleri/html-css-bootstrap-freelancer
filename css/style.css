@@ -23,6 +23,11 @@ header {
   background-color: #1ABC9C;
 }
 
+.avatar {
+  width: 300px;
+  
+}
+
 .line{
   width:15%;
   height: 4px;
@@ -32,7 +37,7 @@ header {
 }
 
 .sub-title {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
 }
 .info {
   background-color:#2C3E50 ;
