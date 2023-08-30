@@ -10,15 +10,14 @@
   margin: 0 auto;
 }
 
-[class^="col"] {
+/* [class^="col"] {
   background-color: rgba(139, 69, 19, 0.301);
-}
+} */
 
 header {
   height: 80px;
   background-color: #2C3E50;
 }
-
 
 .jumbo, .about {
   background-color: #1ABC9C;
@@ -113,6 +112,14 @@ header {
 
 .info {
   background-color:#2C3E50 ;
+}
+
+.brand {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid white;
 }
 
 footer {
