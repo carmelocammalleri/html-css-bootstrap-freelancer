@@ -91,7 +91,11 @@ header {
   color: #1ABC9C;
 }
 
-.input-custom {
+.button-contact{
+  background-color: #1ABC9C;
+}
+
+.input-melo {
   border-top: none;
   border-left: none;
   border-right: none;
