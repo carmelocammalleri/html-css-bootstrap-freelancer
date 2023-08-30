@@ -37,24 +37,25 @@ header {
 .fa-plus {
   font-size: 10rem;
   color: white;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  translate: 50% -50%;
-  display: none;
 }
 
-.posing:hover {
+.posing {
   width: 100%;
   height: 100%;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  translate: 50% -50%;
   background-color: rgba(255, 255, 255, 0.233);
   display: none;
 }
 
+.fa-plus, .posing{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  translate: 50% -50%;
+}
+
+.card-custom:hover .posing{
+  display: block;
+}
 
 .line{
   width:15%;
