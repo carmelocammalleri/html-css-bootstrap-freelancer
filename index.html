@@ -22,8 +22,10 @@
         <a class="navbar-brand text-uppercase  text-white fw-bold" href="#">Start bootstrap</a>
 
         <!-- HAMBURGER MENU -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler border-white text-white" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar">
+            <i class="fa-solid fa-bars"></i>
+          </span>
         </button>
         <!-- /HAMBURGER MENU -->
         
@@ -173,8 +175,9 @@
     <!-- /ABOUT -->
 
     <!-- CONTACT ME -->
-      <section class="contact">
+      <section class="contact py-5">
         <div class="container-small">
+          <div class="container-fluid">
             <div class="title text-uppercase text-center ">
               <h2 class="fw-bold mt-5 mb-3">contact me</h2>
 
@@ -185,19 +188,16 @@
               </div>
             </div>
             
-            <form action="#">    
-
-              <input type="text" class="form-control input-melo py-3" placeholder="Name">
-
+            <form action="#">
+    
+              <input type="text" class="form-control input-custom py-3" placeholder="Name">
               <input type="email" class="form-control input-custom py-3" placeholder="Email Address">
-
               <input type="text" class="form-control input-custom py-3" placeholder="Phone Number">
-
               <textarea name="" id="" cols="30" rows="10" placeholder="Message" class="form-control input-custom"></textarea>
-
               <button class="btn btn-secondary mt-3 button-contact">Send</button>
-
             </form>
+            
+          </div>
         </div>
       </section>
       <!-- /CONTACT ME -->
@@ -207,7 +207,10 @@
     <section class="info">
       <div class="container">
         <div class="row row-cols-1 row-cols-lg-3 text-center ">
-          <div class="col">sec1</div>
+          <div class="col">
+            <h4>Location</h4>
+            <span>2215 John Daniel Clark, MO 54243</span>
+          </div>
           <div class="col">sec2</div>
           <div class="col">sec3</div>
         </div>

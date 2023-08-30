@@ -6,7 +6,7 @@
 
 .container-small {
   max-width: 1200px;
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -53,6 +53,10 @@ header {
   translate: 50% -50%;
 }
 
+.fa-bars {
+  color: white;
+}
+
 .card-custom:hover .posing{
   display: block;
 }
@@ -95,12 +99,16 @@ header {
   background-color: #1ABC9C;
 }
 
-.input-melo {
+.input-custom {
   border-top: none;
   border-left: none;
   border-right: none;
   border-radius: 0;
   padding-left: 0;
+}
+
+.input-custom::placeholder {
+  color: black;
 }
 
 .info {
