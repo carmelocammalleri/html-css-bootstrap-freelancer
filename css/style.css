@@ -25,7 +25,11 @@ header {
 }
 
 .avatar {
-  width: 300px;
+  width: 200px;
+}
+
+.card-custum {
+  width: 100%;
 }
 
 .line{
