@@ -23,6 +23,9 @@ header {
   background-color: #1ABC9C;
 }
 
+.sub-title {
+  font-size: 1.5rem;
+}
 .info {
   background-color:#2C3E50 ;
 }
