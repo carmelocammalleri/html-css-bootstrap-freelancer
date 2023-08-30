@@ -96,18 +96,17 @@ header {
 
 .button-contact{
   background-color: #1ABC9C;
+  border-radius: 5px;
+  color: white;
+  padding: 3px 8px;
 }
 
-.input-custom {
-  border-top: none;
-  border-left: none;
-  border-right: none;
-  border-radius: 0;
-  padding-left: 0;
-}
-
-.input-custom::placeholder {
+.input_custom::placeholder {
   color: black;
+}
+
+footer {
+ background-color: #3A546D;
 }
 
 .info {
@@ -122,6 +121,6 @@ header {
   border: 1px solid white;
 }
 
-footer {
- background-color: #3A546D;
+.bootstart {
+  color: #1ABC9C;
 }
