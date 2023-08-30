@@ -5,8 +5,8 @@
 }
 
 .container-small {
-  max-width: 800px;
-  width: 60%;
+  max-width: 1200px;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -69,6 +69,26 @@ header {
 
 .image{
   border-radius: 20px;
+}
+
+.btn-about {
+  width: 120px;
+  background-color: #1ABC9C;
+  border: 1px solid white;
+  padding: 5px 10px;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-about:hover{
+  background-color: rgba(255, 255, 255, 0.582);
+  border: 1px solid #1ABC9C;
+}
+
+.btn-about:hover i,
+.btn-about:hover span{
+  color: #1ABC9C;
 }
 
 .info {
